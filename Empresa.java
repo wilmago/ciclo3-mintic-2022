@@ -5,6 +5,9 @@ public class Empresa {
     private String telefono;
     private long nit;
 
+    public Empresa() {
+    }
+
     // Getters and Setters
     public String getNombreEmpresa() {
         return nombreEmpresa;
